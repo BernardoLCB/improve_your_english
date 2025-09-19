@@ -1,29 +1,16 @@
 "use client"
 
 import { useState } from "react";
+import { emotionsVocabulary } from "@/_conteudos/vocabulary";
 
-//        <section className="flex w-screen h-screen justify-center items-center">
-//            <button onClick = {botao} className="text-2xl hover:cursor-pointer transition hover:scale-105 bg-blue-800 p-3 //rounded-2xl">conteudo - {valor}</button>
-//        </section>
 
 type prop = {
     possible_answer:string,
     number:string,
-    tip?:string,
-    emoji?:string,
+    tip:string,
+    emoji:string,
 
 }
-
-
-
-
-export default function Page(){
-    const [valor, setValor] = useState<number>(0);
-
-    function botao(){
-        setValor(valor+1);
-    }
-
 
     function Cards_Help({tip, emoji}:prop){
         return(
@@ -56,14 +43,25 @@ export default function Page(){
     }
 
 
+
+
+export default function Page(){
+    const [valor, setValor] = useState<number>(0);
+    let numero:number = Math.floor(Math.random() * 21)
+
+    function botao(){
+        setValor(valor+1);
+        alert(numero)
+    }
+
     return(
-        <main className="flex w-screen h-screen bg-linear-to-b from-blue-800 to-red-400 items-ceter justify-center">
+        <main className="flex w-screen h-screen bg-linear-to-b from-[#222242] via-gray-500 to-white items-ceter justify-center">
             <section className="flex flex-col  w-[1280px] p-5 m-auto gap-y-5 ">
 
-                <section className="flex">
+                <section className="flex ">
 
                     <header className="flex-[8] bg-amber-500 text-center rounded-md border p-3 text-2xl font-semibold">
-                        <h1>Conteudo</h1>
+                        <h1>{emotionsVocabulary.happy}</h1>
                     </header>
 
                     <section className="flex-[2]">
@@ -125,7 +123,7 @@ export default function Page(){
                                 </section>
 
                                 <section  className="flex m-auto">
-                                    <button className="border rounded-md p-3">PROXIMO</button>
+                                    <button onClick={botao} className="border rounded-md p-3 cursor-pointer">PROXIMO</button>
                                 </section>
                             
                             </div>
