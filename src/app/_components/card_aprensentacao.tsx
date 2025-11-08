@@ -1,5 +1,3 @@
-import { Generic_Button } from "./generic__button";
-
 export function Generic_Card_Apresentacao(){
     return(
         <section className="bg-[#222242] py-15 border-b border">
