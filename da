@@ -1,0 +1,29 @@
+[33mcommit c46b087fc01ca448b3578f9eb6fa6e95eeb2fcec[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: bernardoleinig <bernardoleinig@gmail.com>
+Date:   Sat Nov 8 14:16:33 2025 -0300
+
+    criado o componente card_help e reformulado a page_games
+
+[33mcommit 56e4aed35bb265d1c2caed95a602d931f8b61668[m
+Author: bernardoleinig <bernardoleinig@gmail.com>
+Date:   Fri Sep 19 20:59:42 2025 -0300
+
+    inicializado o projeto
+
+[33mcommit ffa6974321d42f271bcc9bfec82cccec76c9f95c[m[33m ([m[1;31morigin/rota_games[m[33m)[m
+Author: bernardoleinig <bernardoleinig@gmail.com>
+Date:   Fri Aug 1 00:34:01 2025 -0300
+
+    inicializado o layout da página page_game baseado no jogo do milhão
+
+[33mcommit 246c399ae663629f24608c2ad1ed8ce7124ea23a[m
+Author: bernardoleinig <bernardoleinig@gmail.com>
+Date:   Thu Jul 31 17:57:04 2025 -0300
+
+    finalizado o layout da homepage
+
+[33mcommit 7d515d2ee506bb8df1c1298fd6c69d3637476058[m
+Author: bernardoleinig <bernardoleinig@gmail.com>
+Date:   Fri Jul 25 12:03:03 2025 -0300
+
+    Initial commit from Create Next App
