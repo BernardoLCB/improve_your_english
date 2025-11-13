@@ -1,6 +1,6 @@
 export function Card_Modulos(){
     return(
-        <div className="bg-yellow-50">
+        <div className="bg-blue-950 border">
             <section className="max-w-[1280px] m-auto py-10 ">
                 <section className="">
                     <header className="flex flex-col justify-center items-center text-center py-10">

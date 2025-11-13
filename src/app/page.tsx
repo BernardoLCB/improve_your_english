@@ -1,12 +1,15 @@
 import { Generic_Card_Apresentacao } from "./_components/card_aprensentacao";
 import { Card_Modulos } from "./_components/card_modulos";
 import Container_Modulos from "./_components/container_modulos";
+import Footer from "./_components/footer";
 import { Modulos } from "./_components/modulos";
+import Navbar from "./_components/navbar";
 //possivel ideai: implementar um jogo como se fosse o "jogo do milhão"
 
 export default function HomePage() {
   return(
     <>
+      <Navbar/>
       <Generic_Card_Apresentacao/>
       
       <Card_Modulos/>
@@ -122,6 +125,7 @@ export default function HomePage() {
         }
       
       />
+      <Footer/>
     </>
   );
 }

@@ -1,6 +1,6 @@
 export function Generic_Card_Apresentacao(){
     return(
-        <section className="bg-[#222242] py-15 border-b border">
+        <section className="bg-[#222242] py-15">
             <section className="flex flex-col max-w-[1280px] m-auto gap-y-10">
 
                 <header className="flex flex-col max-w-[700px] text-center m-auto">
